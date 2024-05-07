@@ -1,0 +1,2 @@
+export GIT_AUTHOR_NAME="Your Name"
+export GIT_AUTHOR_EMAIL="your.email@example.com"
