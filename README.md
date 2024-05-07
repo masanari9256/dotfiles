@@ -1,15 +1,15 @@
 # Dotfiles
 ### まずは以下のファイルを1つずつ実行する
-- init.sh
+- init.sh  
 xcodeとbrewのインストール
 
-- link.sh
+- link.sh  
 設定ファイル等のシンボリックリンクを貼る
 
-- defaults.sh
+- defaults.sh  
 macの設定を変更する
 
-- setup.sh
+- setup.sh  
 諸々の設定を行う
 今のところ、githubのssh接続設定のみ
 
