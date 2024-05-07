@@ -3,5 +3,10 @@
     "files.insertFinalNewline": true,
     "editor.fontSize": 13,
     "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true
+    "files.trimFinalNewlines": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        //  スペースは ・ で表示される
+        "editor.renderWhitespace": "boundary"
+    }
 }
