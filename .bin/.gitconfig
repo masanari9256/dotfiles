@@ -5,6 +5,7 @@
 
 [core]
 	excludesfile = ~/.gitignore_global
+	autocrlf = input
 
 [init]
     defaultBranch = main
@@ -17,6 +18,7 @@
 
 [alias]
 	st = status
+	sh = stash
 	ck = checkout
 	com = commit -m
 	undo = reset --soft HEAD^
