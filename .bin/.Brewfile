@@ -3,12 +3,13 @@ cask_args appdir: "/Applications"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "sanemat/font"
+tap "osx-cross/arm"
+tap "osx-cross/avr"
+tap "sanemat/font"
 
+brew "asdf"
 brew "git"
 brew "mas"
-brew "jq"
-brew "direnv"
-brew "asdf"
 
 # 必須
 cask "arc"
@@ -18,7 +19,6 @@ cask "google-japanese-ime"
 cask "1password"
 cask "notion"
 cask "raycast"
-cask "logitech-g-hub"
 
 # コミュニケーション
 cask "slack"

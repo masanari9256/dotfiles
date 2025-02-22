@@ -29,8 +29,8 @@ function app_dl_curl {
   fi
 }
 
-# DisplayLink Manager
-app_dl_web "DisplayLink Manager" https://www.synaptics.com/products/displaylink-graphics/downloads/macos
+# Cursor
+app_dl_web "Cursor" https://www.cursor.com/
 
 # Logi GHUB
 app_dl_curl "Logi GHUB" https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.zip
