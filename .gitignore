@@ -1,3 +1,4 @@
 .zshenv
 .env
 .DS_Store
+*.plist
