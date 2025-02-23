@@ -97,6 +97,8 @@ execute_command "defaults write -g AppleShowAllExtensions -bool true"
 execute_command "defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE"
 ## 常にカラム表示
 execute_command "defaults write com.apple.Finder FXPreferredViewStyle -string 'clmv'"
+# 検索時にデフォルトでカレントディレクトリを検索する
+execute_command "defaults write com.apple.finder FXDefaultSearchScope -string 'SCcf'"
 
 ###################
 # その他の設定 #
