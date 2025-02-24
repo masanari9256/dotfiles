@@ -1,8 +1,3 @@
-[user]
-	# 環境変数で定義
-	# name =
-	# email =
-
 [core]
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
