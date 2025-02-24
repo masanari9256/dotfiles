@@ -6,3 +6,4 @@ fontsize = 16
 LineHeightRatio = 1.4
 theme = "Dracula"
 InputMode = "Waterfall"
+show the tab bar = always
