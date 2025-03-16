@@ -28,3 +28,6 @@ Temporary Items
 # editor
 .idea/
 .code/
+
+# Cusrorのmdファイル格納用
+docs_cursor/
