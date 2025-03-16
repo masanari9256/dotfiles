@@ -19,6 +19,8 @@ cask "google-japanese-ime"
 cask "1password"
 cask "notion"
 cask "raycast"
+cask "cleanshot"
+cask "appcleaner"
 
 # コミュニケーション
 cask "slack"
