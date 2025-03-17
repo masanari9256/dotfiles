@@ -12,19 +12,20 @@ brew "git"
 brew "mas"
 
 # 必須
+cask "1password"
 cask "arc"
+cask "betterdisplay"
+cask "appcleaner"
+cask "cleanshot"
 cask "google-chrome"
 cask "google-drive"
 cask "google-japanese-ime"
-cask "1password"
 cask "notion"
 cask "raycast"
-cask "cleanshot"
-cask "appcleaner"
 
 # コミュニケーション
-cask "slack"
 cask "discord"
+cask "slack"
 cask "zoom"
 
 # 開発
