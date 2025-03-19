@@ -29,5 +29,8 @@ Temporary Items
 .idea/
 .code/
 
+# development
+.tool-versions
+
 # Cusrorのmdファイル格納用
 docs_cursor/
