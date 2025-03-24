@@ -69,6 +69,8 @@ execute_command "defaults write com.apple.dock tilesize -int 45"
 execute_command "defaults write com.apple.dock autohide -bool true"
 ## 表示するアプリをリセット
 execute_command "defaults write com.apple.dock persistent-apps -array"
+## 仮想デスクトップの自動並べ替えを無効
+execute_command "defaults write com.apple.dock mru-spaces -bool false"
 
 ###################
 # メニューバー設定 #
