@@ -96,7 +96,7 @@ execute_command "defaults write com.apple.finder AppleShowAllFiles -bool YES"
 ## 全ての拡張子のファイルを表示する
 execute_command "defaults write -g AppleShowAllExtensions -bool true"
 ## .DS_Storeファイルを作らせない
-execute_command "defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE"
+execute_command "defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true"
 ## 常にカラム表示
 execute_command "defaults write com.apple.Finder FXPreferredViewStyle -string 'clmv'"
 # 検索時にデフォルトでカレントディレクトリを検索する
