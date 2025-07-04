@@ -20,3 +20,6 @@
 	undo = reset --soft HEAD^
 	sync = !git fetch -p && git checkout $(git symbolic-ref --short HEAD) && git rebase origin/$(git symbolic-ref --short HEAD)
     origin = !git show-branch | grep '*' | grep -v "$(git rev-parse --abbrev-ref HEAD)" | head -1 | awk -F'[]~^[]' '{print $2}'
+[user]
+	name = masanari9256
+	email = masanari92562@gmail.com
